@@ -1,0 +1,48 @@
+.main-info {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.main-info h1 {
+    color: rgb(255, 0, 149);
+    text-transform: uppercase;
+}
+
+.typed-text {
+    font-family: "Helvetica Neue";
+    font-size: 2.1rem;
+    color: rgb(250, 250, 250);
+}
+
+@media(max-width: 768px) {
+    .main-info h1{
+        font-size: 1.5rem !important;
+    }
+    .typed-text{
+        font-size: 1.3rem !important;
+    }
+}
+.btn-main {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    margin: 2rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btn-main:hover {
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    background-color: rgb(246, 120, 2);
+    transition: .4s ease-in-out;
+}
