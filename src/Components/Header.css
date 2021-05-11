@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    z-index: 1;
+    
 }
 .main-info h1 {
     color: rgb(255, 0, 149);
@@ -28,21 +28,4 @@
     .typed-text{
         font-size: 1.3rem !important;
     }
-}
-.btn-main {
-    text-transform: uppercase;
-    position: relative;
-    font-size: 30px;
-    padding: 10px 10px 10px 10px;
-    color: white;
-    margin: 2rem;
-    border: 1px solid white;
-    border-radius: 50px;
-    text-decoration: none;
-}
-.btn-main:hover {
-    text-decoration: none;
-    color:rgb(250, 250, 250);
-    background-color: rgb(246, 120, 2);
-    transition: .4s ease-in-out;
 }

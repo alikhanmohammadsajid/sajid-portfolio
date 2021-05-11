@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../S.png";
+import logo from "../images/S.png";
 import "./Navbar.css";
 import resume from "../resume/Sajid Khan Resume (2).pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faFileAlt, faHome, faThermometerEmpty } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faFileAlt} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
