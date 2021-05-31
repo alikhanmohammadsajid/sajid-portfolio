@@ -13,7 +13,7 @@ body {
 /************************logo************************/
 
 .logo{
-    width: 7.25rem;
+    width: 5.25rem;
 }
 
 /************************nav-links************************/
@@ -31,16 +31,16 @@ nav ul li {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
     color: var(--primary-white) !important;
-    border-top: 0.1900rem solid var(--primary-dark) !important;
+    border-bottom: 0.1900rem solid var(--primary-dark) !important;
 }
 .navbar-brand {
     max-width: 17.25rem;
     padding: 0 !important;
-    height: 7rem;
+    height: 5rem;
 }
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-top: 0.1900rem solid var(--primary-orange) !important;
+    border-bottom: 0.1900rem solid var(--primary-orange) !important;
 }
 .navbar-nav > li > a:hover {
-    border-top: 0.1900rem solid var(--primary-orange) !important;
+    border-bottom: 0.1900rem solid var(--primary-orange) !important;
 }

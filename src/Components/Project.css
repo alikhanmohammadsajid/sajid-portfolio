@@ -1,4 +1,25 @@
 .image {
-    width: 300px;
+    width: 400px;
     position: center;
 }
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    
+  }
+  .icon-holder {
+    margin-right: 1rem;
+  }
+  .icon {
+    font-size: 2.6rem;
+    color: rgb(255, 196, 0);
+    transition: all 0.4s ease-in-out;
+  }
+  .gh:hover {
+    color: rgb(246, 242, 7);
+  }
+  .in:hover {
+    color: rgb(246, 242, 9);
+  }

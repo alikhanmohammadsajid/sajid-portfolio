@@ -1,0 +1,7 @@
+.text {
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 0 10px 0;
+}
+.img {
+    width: 450px;
+}
